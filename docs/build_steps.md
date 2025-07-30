@@ -16,8 +16,8 @@
 - Breadboard and jumper wires
 - Already had the 7 segment display and active buzzer
 
-## Step 3: Initial Testing (Tinkercad)
-- Planning to simulate wiring and basic functionality using TinkerCAD circuits while waiting for remaining parts to arrive
+## Step 3: Initial Testing (Cirkit Designer IDE)
+- Planning to simulate wiring and basic functionality using Cirkit Designer IDE while waiting for remaining parts to arrive
 
 ## Step 4: Wiring + Breadboarding (Upcoming)
 - Will wire RTC, buzzer, and display on breadboard for prototyping
