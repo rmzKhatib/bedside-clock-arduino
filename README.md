@@ -1,25 +1,30 @@
 # Bedside Clock (Arduino)
 
 ## Description
-A simple bedside digital clock using Arduino. It shows the current time using a DS3231 RTC module and an I2C LCD display. Designed to be a beginner microcontroller project.
+A simple bedside digital clock using Arduino. It shows the current time using a DS3231 RTC module and a TM1637 LED 7 Segment display.
 
 ## Parts Used
-- Arduino Uno/Nano
+- Arduino Uno R3
 - DS3231 RTC module
-- I2C LCD (1602 or OLED)
-- Breadboard and jumper wires
+- TM1637 LED 7 Segment Display 
+- Active Buzzer
+- 5V DC Power Cable
+- CR2032 Lithium Battery 
+- Breadboard and jumper wires (for prototyping)
+- Will buy soldering parts for final design 
 
 ## Features
 - Displays real-time clock in HH:MM
-- Possible addtions: alarm buzzer or buttons, date display, backlight dimming
+- Adjustable alarm buzzer 
 
 ## Wiring Diagram
 To be added.
 
 ## Future Improvements
-- Add alarm function
-- Display date
-- Add dimming based on light sensor
+- Larger Display
+    - Possibly matrix display, allowing date and
+      other messages to be displayed as well as time
+- Adjustable/dimmable lights
 
 ## Status
-Project setup complete. Parts being gathered.
+Project setup complete. Parts being gathered. Planning and simulating on Tinkercad Circuits.
