@@ -1,0 +1,28 @@
+# Build Steps
+
+## Step 1: Planning
+- Decided to build a simple bedside alarm clock using an Arduino Uno.
+- Decided to use the TM1637 4-digit 7 segment display for time display.
+- Real time clock handled by the DS3231 RTC module.
+- Alarm output using an active buzzer.
+- Power supply:
+    - 5V DC adapter and CR2032 battery for RTC backup
+
+## Step 2: Parts Purchased 
+- Arduino Uno R3
+- DS3231 RTC module
+- 5V DC power cable
+- CR2032 lithium battery
+- Breadboard and jumper wires
+- Already had the 7 segment display and active buzzer
+
+## Step 3: Initial Testing (Tinkercad)
+- Planning to simulate wiring and basic functionality using TinkerCAD circuits while waiting for remaining parts to arrive
+
+## Step 4: Wiring + Breadboarding (Upcoming)
+- Will wire RTC, buzzer, and display on breadboard for prototyping
+- Will upload test code using Arduino IDE
+
+## Step 5: Final Build (Upcoming)
+- Will design and 3D print enclosure
+- Will solder components onto a perma board for permanent setup
