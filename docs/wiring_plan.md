@@ -3,23 +3,23 @@
 This wiring plan shows how all components are connected on a full-sized breadboard for prototyping 
 
 ## Arduino to Breadboard
-    - Arduino 5V to red power rail
-    - Connect Arduino GND to blue ground rail
+- Arduino 5V to red power rail (red wire)
+- Connect Arduino GND to blue ground rail (black wire)
 
 ### RTC
-    - SDA --> A4 on Arduino
-    - SCL --> A5 on Arduino
-    - VCC --> 5V rail
-    - GND --> GND rail
+- VCC --> Breadboard red power rail (red wire)
+- GND --> Breadboard blue power rail (black wire)
+- SDA --> Arduino A4 (yellow wire)
+- SCL --> Arduino A5 (green wire)
 
 ### TM1637 Display
-    - VCC --> 5V rail
-    - GND --> GND rail
-    - DIO --> D2 on Arduino
-    - CLK --> D3 on Arduino
+- VCC --> Breadboard red power rail (red wire)
+- GND --> Breadboard blue power rail (black wire)
+- CLK --> Arduino Pin 2 (green wire)
+- DIO --> Arduino Pin 3 (yellow wire)
 
 ### Active Buzzer
-    - + --> Arduino Pin D4
-    - - --> GND rail
+    - +ve --> Arduino Pin D4 (blue wire)
+    - -ve --> blue power rail (black wire)
 
 **Add references to screenshots later**
