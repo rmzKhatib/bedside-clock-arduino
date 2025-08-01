@@ -14,7 +14,8 @@
 - 5V DC power cable
 - CR2032 lithium battery
 - Breadboard and jumper wires
-- Already had the 7 segment display and active buzzer
+- TM1637 4 digit 7 segment display
+- Already had the active buzzer
 
 ## Step 3: Research and Write Up a Wiring Plan
 - Watch tutorials and other videos of wiring while waiting for parts to arrive
