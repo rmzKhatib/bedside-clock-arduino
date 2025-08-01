@@ -16,8 +16,9 @@
 - Breadboard and jumper wires
 - Already had the 7 segment display and active buzzer
 
-## Step 3: Initial Testing (Cirkit Designer IDE)
-- Planning to simulate wiring and basic functionality using Cirkit Designer IDE while waiting for remaining parts to arrive
+## Step 3: Research and Write Up a Wiring Plan
+- Watch tutorials and other videos of wiring while waiting for parts to arrive
+- Create a wiring plan from what I have learned
 
 ## Step 4: Wiring + Breadboarding (Upcoming)
 - Will wire RTC, buzzer, and display on breadboard for prototyping
