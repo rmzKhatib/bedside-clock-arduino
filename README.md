@@ -27,4 +27,4 @@ To be added.
 - Adjustable/dimmable lights
 
 ## Status
-All parts arrived. Prototyping with breadboard and writing code.
+All parts arrived. Prototyping with breadboard and writing code. Current prototype outputs current time in 24h time, and does not yet have the speaker wired.
