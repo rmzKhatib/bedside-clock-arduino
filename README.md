@@ -27,4 +27,4 @@ To be added.
 - Adjustable/dimmable lights
 
 ## Status
-Project setup complete. Parts being gathered. Planning and simulating on Tinkercad Circuits.
+All parts arrived. Prototyping with breadboard and writing code.
