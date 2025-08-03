@@ -6,6 +6,8 @@
 #define CLK 2     // TM1637 Clock pin
 #define DIO 3     // TM1637 Data pin
 #define BUZZER 4  // Active Buzzer Pin
+#define LED_1 5   // LED_1 pin
+#define LED_2 6   // LED_2 pin
 
 // Initialize TM1637 display
 TM1637Display display(CLK, DIO);
@@ -25,6 +27,12 @@ void setup() {
   // Configure buzzer pin as output and ensure it starts OFF
   pinMode(BUZZER, OUTPUT);
   digitalWrite(BUZZER, LOW);
+
+  // Configure led pins as output and ensure they start OFF
+  pinMode(LED_1, OUTPUT);
+  pinMode(LED_2, OUTPUT);
+  digitalWrite(LED_1, LOW);
+  digitalWrite(LED_2, LOW);
 
   // Set display brightness to maximum (0x00 = dim, 0x0f = brightest)
   display.setBrightness(0x0f); //Max brightness
@@ -73,10 +81,14 @@ void loop() {
 
   // Alarm Logic - check if current time matches alarm time
   if(now.hour() == alarmHour && now.minute() == alarmMinute && !alarmTriggered) {
-    // Turn on buzzer
+    // Turn on buzzer and led lights
     digitalWrite(BUZZER, HIGH);
+    digitalWrite(LED_1, HIGH);
+    digitalWrite(LED_2, HIGH);
     delay(5000); // Buzz for 5 seconds
     digitalWrite(BUZZER, LOW); // Turn off buzzer
+    digitalWrite(LED_1, LOW);
+    digitalWrite(LED_2, LOW);
     alarmTriggered = true; // Set flag to prevent repeating alarm in same minute
   }
 
