@@ -10,5 +10,7 @@
 | CR2032 Battery             | 4        | For RTC module              | 5.99        |
 | Breadboard                 | 3        | For prototyping             | 12.99       |
 | Jumper Wires               | 120      | For connecting components   | 8.10        |
+| LED Lights                 | 2        | For alarm lights            | Already Had |
+| Resistors (220ohms)        | 2        | For LED light connections   | Already Had |
 
 Current Total Cost: $95.54 (including HST/GST)
