@@ -21,3 +21,8 @@ This wiring plan shows how all components are connected on a full-sized breadboa
 ### Active Buzzer
     - +ve --> Arduino Pin D4 (blue wire)
     - -ve --> blue power rail (black wire)
+
+### LED Lights (for each led light)
+    - Anode(+) --> Arduino pin (D5, D6, etc.)
+    - Cathode(-) --> One side of resistor
+    - Other side of Resistor (220ohms) --> GND (blue rail)
