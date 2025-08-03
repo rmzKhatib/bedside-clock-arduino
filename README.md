@@ -27,4 +27,4 @@ To be added.
 - Adjustable/dimmable lights
 
 ## Status
-All parts arrived. Prototyping with breadboard and writing code. Current prototype outputs current time in 24h time, and does not yet have the speaker wired.
+Prototype with working 12-hour clock and adjustable alarm. Buzzer only vibrates and it not loud enough, will get a louder buzzer and then begin soldering for final product. Also have to design a 3D printed body to hold everything. 
